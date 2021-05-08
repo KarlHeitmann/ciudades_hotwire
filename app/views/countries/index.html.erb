@@ -1,0 +1,8 @@
+<p id="notice"><%= notice %></p>
+<h1>Countries</h1>
+
+<%= render 'table', countries: @countries, country: @country %>
+
+<br>
+
+<%= link_to 'New Country', new_country_path %>
